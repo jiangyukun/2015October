@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var arr = [{
+        a: 1
+    }, {
+        a: 2
+    }];
+    function a() {
+        console.log(arguments);
+        var arg = [].slice.call(arguments);
+        console.log(arg);
+    }
+    a(arr);
+</script>
+</body>
+</html>

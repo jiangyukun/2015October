@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+    <title>票据客</title>
+    <meta name="keywords"
+          content="票据客,票据,票据理财,投资理财,互联网金融,银行票据,银票承兑汇票,商票宝,网上理财,网上投资，高收益理财,期限灵活,零风险,招行银行,银行无条件到期兑付,票据理财-票据客官网"/>
+    <meta name="description"
+          content="票据理财平台票据客隶属上海富商金融信息服务有限公司，票据理财是由银行承兑汇票到期无条件兑付的理财产品，是互联网票据理财最安全、可信的票据投资理财平台，1元起投，真正本金和收益均可得到保障，期限灵活，零风险，高收益的互联网金融票据理财平台。"/>
+    <meta name="author" content="support@piaojuke.com"/>
+    <meta name="Copyright" content="票据理财-票据客-上海富商金融信息服务有限公司版权所有"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge, Chrome=1, requiresActiveX=true"/>
+    <meta http-equiv="x-rim-auto-match" content="none"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="HandheldFriendly" content="true"/>
+
+    <script type="text/javascript">
+        eval(function (p, a, c, k, e, r) {
+            e = String;
+            if ('0'.replace(0, e) == 0) {
+                while (c--)r[e(c)] = k[c];
+                k = [function (e) {
+                    return r[e] || e
+                }];
+                e = function () {
+                    return '[0-3]'
+                };
+                c = 1
+            }
+            ;
+            while (c--)if (k[c])p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
+            return p
+        }('var 0=/AppleWebKit.*Mobile/i.1(2.3)||/Android|iPhone|Windows Phone|webOS|iPod|BlackBerry/i.1(2.3);if(0===false){window.location.href="http://www.piaojuke.com/"}', [], 4, 'mobile|test|navigator|userAgent'.split('|'), 0, {}))
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <!--
+    <script>window.onerror=function(){return true}</script>
+    -->
+
+</head>
+<body>
+
+<style>
+
+    #loading {
+        z-index: 99999;
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .loadbg {
+        opacity: 0.5;
+        width: 100%;
+        height: 100%;
+        background: #000;
+    }
+
+    .cube {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        margin-left: -25px;
+
+        -webkit-transform-style: preserve-3d;
+        -webkit-transform: rotateY(0deg) translateZ(-100px);
+        -webkit-animation-name: rotationMainContainer;
+        -webkit-animation-duration: 5s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-play-state: running;
+        z-index: 9;
+    }
+
+    .cube-face {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        opacity: .95;
+        -webkit-transform-origin: 50% 50%;
+        -webkit-animation-duration: 5s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-play-state: running;
+    }
+
+    .cube-face-front {
+        -webkit-transform: translateZ(25px);
+        /*-webkit-animation-name: bgCAFace;*/
+        background: url(images/loading.png) no-repeat;
+
+    }
+
+    .cube-face-left {
+        -webkit-transform: rotateY(90deg) translateZ(25px);
+        /*-webkit-animation-name: bgCALeft;*/
+        background: url(images/loading.png) no-repeat;
+    }
+
+    .cube-face-back {
+        -webkit-transform: translateZ(-25px);
+        /*-webkit-animation-name: bgCABack;*/
+        background: url(images/loading.png) no-repeat;
+    }
+
+    .cube-face-right {
+        -webkit-transform: rotateY(90deg) translateZ(-25px);
+        /*-webkit-animation-name: bgCARight;*/
+        background: url(images/loading.png) no-repeat;
+    }
+
+    .cube-face-top {
+        -webkit-transform: rotateX(90deg) translateZ(-25px);
+        /*-webkit-animation-name: bgCATopBottom;*/
+        background: url(images/loading.png) no-repeat;
+    }
+
+    .cube-face-bottom {
+        -webkit-transform: rotateX(90deg) translateZ(25px);
+        /*-webkit-animation-name: bgCATopBottom;*/
+        background: url(images/loading.png) no-repeat;
+    }
+
+    @-webkit-keyframes rotationMainContainer {
+        0% {
+            -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        }
+        100% {
+            -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg)
+        }
+    }
+
+    @-webkit-keyframes bgCAFace {
+        0% {
+            background: #7F1041;
+        }
+        25% {
+            background: #FF6DAD;
+        }
+        50% {
+            background: #FF2182;
+        }
+        100% {
+            background: #7F3756;
+        }
+    }
+
+    @-webkit-keyframes bgCALeft {
+        0% {
+            background: #7F3756;
+        }
+        25% {
+            background: #7F1041;
+        }
+        50% {
+            background: #FF6DAD;
+        }
+        100% {
+            background: #FF2182;
+        }
+    }
+
+    @-webkit-keyframes bgCABack {
+        0% {
+            background: #FF2182;
+        }
+        25% {
+            background: #7F3756;
+        }
+        50% {
+            background: #7F1041;
+        }
+        100% {
+            background: #FF6DAD;
+        }
+    }
+
+    @-webkit-keyframes bgCARight {
+        0% {
+            background: #FF6DAD;
+        }
+        25% {
+            background: #FF2182;
+        }
+        50% {
+            background: #7F3756;
+        }
+        100% {
+            background: #7F1041;
+        }
+    }
+
+    @-webkit-keyframes bgCATopBottom {
+        0% {
+            background: #7F0E2D;
+        }
+        25% {
+            background: #FF6891;
+        }
+        50% {
+            background: #FF1C5A;
+        }
+        100% {
+            background: #7F3449;
+        }
+    }
+</style>
+<div id="loading">
+    <div class="cube">
+        <div class="cube-face cube-face-front"></div>
+        <div class="cube-face cube-face-left"></div>
+        <div class="cube-face cube-face-back"></div>
+        <div class="cube-face cube-face-right"></div>
+        <div class="cube-face cube-face-top"></div>
+        <div class="cube-face cube-face-bottom"></div>
+    </div>
+    <!--<div class="loadbg"></div>-->
+</div>
+<section>
+
+    <!--header-->
+    <header class="navbar navbar-fixed-top">
+        <a class="fa icon-reply fa-2x goback" href="/"></a>
+
+        <h3>我要投资商票宝</h3>
+        <i class="fa fa-navicon fa-2x dropdown" id="accountmenu">
+            <i class="dropdown-toggle" data-toggle="dropdown" href="javascript:;"></i>
+            <ul class="uinfo dropdown-menu">
+                <li><a href="/account/register_show/" target="_self" class="register off">快速注册</a></li>
+                <li class="divider"></li>
+                <li><a href="/account/login_show/" target="_self" class="login off">立即登录</a></li>
+            </ul>
+        </i>
+    </header>
+    <!--header eof-->
+
+    <!--container-->
+    <div class="container">
+
+        <div class="pro-index">
+            <div class="loadbox" style="text-align:center;"></div>
+            <div id="text">
+
+
+                <div class="tab_button navbar-fixed-bottom spro"><a href="/36/">银票宝</a><a href="/37/" class="on">商票宝</a>
+                </div>
+
+
+            </div>
+            <div class="loadend" style="text-align:center;height:3em;"></div>
+        </div>
+    </div>
+    <!--container eof-->
+
+</section>
+<script src="js/module/jquery.js"></script>
+<script src="js/module/bootstrap.js"></script>
+
+<script src="js/module/swiper.js"></script>
+
+<script src="js/module/user.js"></script>
+<script src="js/module/common.js"></script>
+
+<script src="js/module/model.js"></script>
+<script src="js/module/controller.js"></script>
+
+
+<!--script config<script src="/js/module/iscroll.js"></script>
+<script src="/js/dist/sea.js" type="text/javascript"></script>
+<script src="/js/module/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">seajs.config({base:'/js/module/'});seajs.use(['bootstrap','swiper','iscroll','model','controller']);</script>
+-->
+</body>
+</html>
