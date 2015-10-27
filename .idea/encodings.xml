@@ -4,14 +4,9 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/c/1012/a.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/c/1012/b.jpg" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/frame-source/require/index.js" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/frame-source/require/module.js" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/frame-source/require/require.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/frame-source/seajs/runtime-debug.js" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/frame-source/seajs/runtime.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/frame-source/seajs/sea-debug.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/frame-source/seajs/standalone-debug.js" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/frame-source/seajs/standalone.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/framework/kinetic/src" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/h/1008-1/201503021725" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/h/1008-2/bird1.png" charset="GBK" />
@@ -48,9 +43,7 @@
     <file url="file://$PROJECT_DIR$/src/main/webapp/res/js/jquery.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/res/js/kinetic.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/res/js/require.js" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/res/js/require.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/res/js/sea-debug.js" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/webapp/res/js/sea.js" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/webapp/res/js/underscore.js" charset="GBK" />
   </component>
 </project>
