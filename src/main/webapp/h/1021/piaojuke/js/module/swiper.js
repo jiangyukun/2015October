@@ -2094,7 +2094,7 @@ var Swiper = function (selector, params) {
         // Calc Visible slides
         _this.calcVisibleSlides(position);
 
-        // Mark visible and active slides with additonal classes
+        // Mark visible and active slides with additional classes
         if (_this.support.classList) {
             var slide;
             for (i = 0; i < _this.slides.length; i++) {

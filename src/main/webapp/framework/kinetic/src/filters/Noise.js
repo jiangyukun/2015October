@@ -1,7 +1,7 @@
 (function () {
 
     /**
-     * Noise Filter. Randomly adds or substracts to the color channels
+     * Noise Filter. Randomly adds or subtracts to the color channels
      * @function
      * @name Noise
      * @memberof Kinetic.Filters

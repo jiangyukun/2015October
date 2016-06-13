@@ -519,7 +519,7 @@ window.tram = (function (jQuery) {
     // Public wait() - chainable
     function wait(time) {
       time = validTime(time, 0);
-      // if start() has ocurred, simply push wait into queue
+      // if start() has occurred, simply push wait into queue
       if (this.active) {
         this.queue.push({ options: time });
       } else {
