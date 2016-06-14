@@ -380,7 +380,7 @@ var Kinetic = {};
             Kinetic.window = global;
         } else {
             // Node. Does not work with strict CommonJS, but
-            // only CommonJS-like enviroments that support module.exports,
+            // only CommonJS-like environments that support module.exports,
             // like Node.
             var Canvas = require('canvas');
             var jsdom = require('jsdom').jsdom;
